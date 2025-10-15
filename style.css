@@ -10,6 +10,7 @@ body {
 
 main {
     color: rgb(29, 29, 29);
+    margin: 24px;
 }
 
 img {
@@ -29,6 +30,8 @@ h2 {
 
 h1, h2 {
     color: #291B1A;
+    margin-bottom: 4px;
+    line-height: 150%;
 }
 
 p, li {
@@ -43,4 +46,12 @@ p, li {
     background-color: #F0E8C2;
     border-radius: 24px;
     margin: 48px auto;
+}
+
+#about p + p {
+    margin-top: 24pxS;
+}
+
+section + section {
+    margin-top: 24px;
 }
