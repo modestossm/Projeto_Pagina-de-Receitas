@@ -5,3 +5,7 @@ body {
 main {
     color: antiquewhite;
 }
+
+img {
+    border-radius: 16px;
+}
